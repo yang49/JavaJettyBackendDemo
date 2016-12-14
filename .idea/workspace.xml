@@ -666,7 +666,7 @@
       <option name="presentableId" value="Default" />
       <updated>1481685434688</updated>
       <workItem from="1481685436570" duration="627000" />
-      <workItem from="1481686300183" duration="337000" />
+      <workItem from="1481686300183" duration="351000" />
     </task>
     <task id="LOCAL-00001" summary="Add SystemContextListener">
       <created>1481686565510</created>
@@ -675,11 +675,18 @@
       <option name="project" value="LOCAL" />
       <updated>1481686565510</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add SystemContextListener">
+      <created>1481686644267</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1481686644267</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="964000" />
+    <option name="totallyTimeSpent" value="978000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1419" y="24" width="1867" height="1056" extended-state="6" />
