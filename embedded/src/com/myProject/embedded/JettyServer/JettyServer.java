@@ -19,12 +19,11 @@ public class JettyServer {
             Server server = new Server(port);
             WebAppContext context = new WebAppContext();
             String dir = System.getProperty("user.dir");
-            dir = dir + "/embedded/web/WEB-INF";
+            dir = dir + "/embedded/web/";
             System.out.println(dir);
-            System.out.println("ASdsada");
 
             context.setResourceBase(dir);
-            context.setContextPath("/yang");
+            context.setContextPath("/");
 
 //            context.setParentLoaderPriority(true);
             server.setHandler(context);

@@ -11,9 +11,6 @@ public class SystemContextListener implements ServletContextListener{
     @Override
     public void contextInitialized(ServletContextEvent sce) {
         System.out.println("Context initialized:"+sce.getServletContext().getContextPath());
-        for(int i = 1; i > 0; i++) {
-            System.out.println("What");
-        }
     }
 
     @Override
