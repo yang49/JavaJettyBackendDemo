@@ -22,10 +22,14 @@ public class JettyServer {
             dir = dir + "/embedded/web/";
             System.out.println(dir);
 
-            context.setResourceBase(dir);
-            context.setContextPath("/");
+            String descriptor = dir+"/WEB-INF/web.xml";
+            System.out.println("descriptor -> " + descriptor);
 
-//            context.setParentLoaderPriority(true);
+            context.setDescriptor(descriptor);
+            context.setDefaultsDescriptor(dir + "/WEB-INF/webdefault.xml");
+            context.setResourceBase(dir);
+            context.setContextPath("/test");
+
             server.setHandler(context);
 
             server.start();

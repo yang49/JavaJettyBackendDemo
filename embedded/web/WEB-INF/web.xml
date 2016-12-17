@@ -7,4 +7,15 @@
     <listener>
         <listener-class>com.myProject.system.listeners.SystemContextListener</listener-class>
     </listener>
+
+    <servlet>
+        <servlet-name>testServlet</servlet-name>
+        <!--<servlet-class>com.myProject.system.servlets.testServlet</servlet-class>-->
+        <servlet-class>com.myProject.system.servlets.testServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>testServlet</servlet-name>
+        <url-pattern>simple.do</url-pattern>
+    </servlet-mapping>
 </web-app>
