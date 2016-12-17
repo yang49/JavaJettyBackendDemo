@@ -28,7 +28,7 @@ public class JettyServer {
             context.setDescriptor(descriptor);
             context.setDefaultsDescriptor(dir + "/WEB-INF/webdefault.xml");
             context.setResourceBase(dir);
-            context.setContextPath("/test");
+            context.setContextPath("/yang");
 
             server.setHandler(context);
 
