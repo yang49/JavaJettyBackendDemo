@@ -7,10 +7,13 @@ package com.myProject.system.listeners;
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
 
+import com.myProject.system.MySystem;
+
 public class SystemContextListener implements ServletContextListener{
     @Override
     public void contextInitialized(ServletContextEvent sce) {
-        System.out.println("Context initialized:"+sce.getServletContext().getContextPath());
+        MySystem.init();
+//        System.out.println("Context initialized:"+sce.getServletContext().getContextPath());
     }
 
     @Override

@@ -5,9 +5,7 @@ package com.myProject.embedded.JettyServer;
  */
 
 
-
 import org.eclipse.jetty.server.Server;
-//import org.eclipse.jetty.servlet.ServletHolder;
 import org.eclipse.jetty.webapp.WebAppContext;
 
 
@@ -20,10 +18,10 @@ public class JettyServer {
             WebAppContext context = new WebAppContext();
             String dir = System.getProperty("user.dir");
             dir = dir + "/embedded/web/";
-            System.out.println(dir);
+//            System.out.println(dir);
 
             String descriptor = dir+"/WEB-INF/web.xml";
-            System.out.println("descriptor -> " + descriptor);
+//            System.out.println("descriptor -> " + descriptor);
 
             context.setDescriptor(descriptor);
             context.setDefaultsDescriptor(dir + "/WEB-INF/webdefault.xml");
