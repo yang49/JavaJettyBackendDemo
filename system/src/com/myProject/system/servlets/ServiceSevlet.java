@@ -11,6 +11,7 @@ import javax.servlet.ServletException;
 
 import java.io.BufferedReader;
 import java.io.IOException;
+import org.json.*;
 
 public class ServiceSevlet extends HttpServlet{
 
@@ -32,9 +33,12 @@ public class ServiceSevlet extends HttpServlet{
         String line;
         while((line = reader.readLine()) != null) {
             buffer.append(line);
-            System.out.println(line);
+//            System.out.println(line);
         }
+
         System.out.println("Post data -> " + buffer);
+        JSONObject json = new JSONObject(buffer.toString());
+        System.out.println("Service -> " + json.getString("service"));
         response.getWriter().println("Post received");
     }
 }
