@@ -699,7 +699,7 @@
       <workItem from="1482712155616" duration="2939000" />
       <workItem from="1483892045348" duration="2000" />
       <workItem from="1484368129427" duration="707000" />
-      <workItem from="1488064561760" duration="300000" />
+      <workItem from="1488064561760" duration="341000" />
     </task>
     <task id="LOCAL-00001" summary="Add SystemContextListener">
       <created>1481686565510</created>
@@ -771,11 +771,18 @@
       <option name="project" value="LOCAL" />
       <updated>1482715078081</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Add json parser, post modules created">
+      <created>1488064897928</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1488064897928</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23759000" />
+    <option name="totallyTimeSpent" value="23800000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="53" y="24" width="1313" height="744" extended-state="6" />
